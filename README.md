@@ -13,9 +13,7 @@ Bayesian methods offer a probabilistic framework for parameter estimation and un
 - **Flexibility and Applicability:**
   - BLMs are suited for linear relationships and interpretable insights.
   - BNNs adapt Bayesian methods to deep learning, suitable for tasks requiring complex feature extraction (e.g., image or speech recognition).
-- **Implementation:** Python-based tutorials showcase MCMC methods, including:
-  - Metropolis-Hastings
-  - Hamiltonian Monte Carlo  
+- **Implementation:** Python-based tutorials showcase a MCMC method, that is Metropolis-Hastings. 
   Examples cover linear regression and neural networks.
 
 ## Findings
@@ -37,13 +35,25 @@ Bayesian methods offer a probabilistic framework for parameter estimation and un
 - Quantify uncertainty in deep learning tasks.
 
 **Challenges:**
-- Struggle with multi-modal posterior distributions.
-- High computational cost, especially for large architectures.
+- Struggle with multi-modal posterior distributions, leading to challenges in convergence diagnostics compared to the unimodal posteriors of BLMs.
+- High computational cost, especially for large architectures: Bayesian models often require more time for tuning and validation compared to frequentist approaches.
 
 ### Comparison: BLMs vs. BNNs
 
-- **Small Datasets:** BLMs outperform BNNs due to better generalization and stability.
+- **Small Datasets:** BLMs outperform BNNs due to better generalization and stability. BLMs show better convergence and are more robust in small-sample settings.
 - **High-Dimensional Tasks:** BNNs provide the necessary flexibility, albeit at a computational cost.
+
+### Recommendations
+**Choose Bayesian Methods When**:
+
+- Uncertainty quantification and interpretability are crucial.
+- Data is scarce or noisy, and domain expertise can inform priors.
+- Robustness to overfitting is a priority.
+  
+**Avoid Bayesian Methods If**:
+
+- Real-time or computational efficiency is critical.
+- Interpretability is unnecessary, and data is abundant.
 
 ---
 
