@@ -16,6 +16,18 @@ Bayesian methods offer a probabilistic framework for parameter estimation and un
 - **Implementation:** Python-based tutorials showcase a MCMC method, that is Metropolis-Hastings. 
   Examples cover linear regression and neural networks.
 
+### Recommendations
+**Choose Bayesian Methods When**:
+
+- Uncertainty quantification and interpretability are crucial.
+- Data is scarce or noisy, and domain expertise can inform priors.
+- Robustness to overfitting is a priority.
+  
+**Avoid Bayesian Methods If**:
+
+- Real-time or computational efficiency is critical.
+- Interpretability is unnecessary, and data is abundant.
+
 ## Findings
 
 ### Bayesian Linear Models (BLMs)
@@ -43,17 +55,7 @@ Bayesian methods offer a probabilistic framework for parameter estimation and un
 - **Small Datasets:** BLMs outperform BNNs due to better generalization and stability. BLMs show better convergence and are more robust in small-sample settings.
 - **High-Dimensional Tasks:** BNNs provide the necessary flexibility, albeit at a computational cost.
 
-### Recommendations
-**Choose Bayesian Methods When**:
 
-- Uncertainty quantification and interpretability are crucial.
-- Data is scarce or noisy, and domain expertise can inform priors.
-- Robustness to overfitting is a priority.
-  
-**Avoid Bayesian Methods If**:
-
-- Real-time or computational efficiency is critical.
-- Interpretability is unnecessary, and data is abundant.
 
 ---
 
