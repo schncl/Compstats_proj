@@ -7,15 +7,15 @@ This repository explores **Bayesian Linear Models (BLMs)** and **Bayesian Neural
 This repository provides a **Python-based tutorial** on Bayesian Neural Networks (BNNs) using **Markov Chain Monte Carlo (MCMC) sampling**. The project explores the challenges of MCMC in large models and compares BNNs with Bayesian Linear Models (BLMs) on different datasets.
 
 ## Goals
-- 🧠 Provide a practical introduction to **Bayesian Neural Networks** and **MCMC sampling**.
-- 📊 Investigate the **computational challenges** and **convergence diagnostics**.
-- ⚖️ Compare the **performance of BNNs and BLMs** on real datasets.
+- Provide a practical introduction to **Bayesian Neural Networks** and **MCMC sampling**.
+-  Investigate the **computational challenges** and **convergence diagnostics**.
+- ⚖ Compare the **performance of BNNs and BLMs** on real datasets.
 
 ## Key Results
-- ✅ **BNNs offer greater flexibility** in high-dimensional tasks but come at a higher computational cost.
-- ⚡ **BLMs perform better on small datasets**, showing faster convergence and higher efficiency.
-- ❌ **BNNs struggle with posterior multimodality**, leading to lower acceptance rates and convergence challenges.
-- 🎯 **Bayesian methods enhance uncertainty quantification**, making them valuable in scenarios with scarce or noisy data.
+-  **BNNs offer greater flexibility** in high-dimensional tasks but come at a higher computational cost.
+-  **BLMs perform better on small datasets**, showing faster convergence and higher efficiency.
+-  **BNNs struggle with posterior multimodality**, leading to lower acceptance rates and convergence challenges.
+-  **Bayesian methods enhance uncertainty quantification**, making them valuable in scenarios with scarce or noisy data.
 
 
 
