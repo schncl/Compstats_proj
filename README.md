@@ -9,7 +9,7 @@ This repository provides a **Python-based tutorial** on Bayesian Neural Networks
 ## Goals
 - Provide a practical introduction to **Bayesian Neural Networks** and **MCMC sampling**.
 -  Investigate the **computational challenges** and **convergence diagnostics**.
-- ⚖ Compare the **performance of BNNs and BLMs** on real datasets.
+-  Compare the **performance of BNNs and BLMs** on real datasets.
 
 ## Key Results
 -  **BNNs offer greater flexibility** in high-dimensional tasks but come at a higher computational cost.
