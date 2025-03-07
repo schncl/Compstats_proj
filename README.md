@@ -1,10 +1,10 @@
 # Bayesian Neural Networks via MCMC: A Python-Based Tutorial
 
-This repository explores **Bayesian Linear Models (BLMs)** and **Bayesian Neural Networks (BNNs)**, focusing on their performance under different dataset sizes and conditions. It includes critical analyses, results from simulations, and Python-based implementation tutorials for **Markov Chain Monte Carlo (MCMC)** methods.
+## References
+This work is based on: **Rohitash Chandra & Joshua Simmons**, *Bayesian Neural Networks via MCMC: A Python-based Tutorial*, IEEE, 2016.
 
 ## Overview
-
-This repository provides a **Python-based tutorial** on Bayesian Neural Networks (BNNs) using **Markov Chain Monte Carlo (MCMC) sampling**. The project explores the challenges of MCMC in large models and compares BNNs with Bayesian Linear Models (BLMs) on different datasets.
+This repository provides a **Python-based tutorial** on Bayesian Neural Networks (BNNs) using **Markov Chain Monte Carlo (MCMC) sampling**. The project explores the challenges of MCMC in large models and compares BNNs with Bayesian Linear Models (BLMs) on different datasets, as well as evaluating their performance against a standard neural network (NN).
 
 ## Goals
 - Provide a practical introduction to **Bayesian Neural Networks** and **MCMC sampling**.
