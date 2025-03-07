@@ -1,59 +1,22 @@
-# Bayesian Methods in Computational Statistics
+# Bayesian Neural Networks via MCMC: A Python-Based Tutorial
 
 This repository explores **Bayesian Linear Models (BLMs)** and **Bayesian Neural Networks (BNNs)**, focusing on their performance under different dataset sizes and conditions. It includes critical analyses, results from simulations, and Python-based implementation tutorials for **Markov Chain Monte Carlo (MCMC)** methods.
 
 ## Overview
 
-Bayesian methods offer a probabilistic framework for parameter estimation and uncertainty quantification, treating parameters as distributions rather than fixed values. This is particularly valuable in fields such as machine learning, econometrics, and data analysis where uncertainty must be rigorously quantified.
+This repository provides a **Python-based tutorial** on Bayesian Neural Networks (BNNs) using **Markov Chain Monte Carlo (MCMC) sampling**. The project explores the challenges of MCMC in large models and compares BNNs with Bayesian Linear Models (BLMs) on different datasets.
 
-## Key Features
+## Goals
+- 🧠 Provide a practical introduction to **Bayesian Neural Networks** and **MCMC sampling**.
+- 📊 Investigate the **computational challenges** and **convergence diagnostics**.
+- ⚖️ Compare the **performance of BNNs and BLMs** on real datasets.
 
-- **Uncertainty Quantification:** Both BLMs and BNNs excel at incorporating model uncertainty, making predictions more robust to sparse or noisy data.
-- **Regularization via Priors:** Prior knowledge can be incorporated to prevent overfitting, especially in small-sample settings.
-- **Flexibility and Applicability:**
-  - BLMs are suited for linear relationships and interpretable insights.
-  - BNNs adapt Bayesian methods to deep learning, suitable for tasks requiring complex feature extraction (e.g., image or speech recognition).
-- **Implementation:** Python-based tutorials showcase a MCMC method, that is Metropolis-Hastings. 
-  Examples cover linear regression and neural networks.
+## Key Results
+- ✅ **BNNs offer greater flexibility** in high-dimensional tasks but come at a higher computational cost.
+- ⚡ **BLMs perform better on small datasets**, showing faster convergence and higher efficiency.
+- ❌ **BNNs struggle with posterior multimodality**, leading to lower acceptance rates and convergence challenges.
+- 🎯 **Bayesian methods enhance uncertainty quantification**, making them valuable in scenarios with scarce or noisy data.
 
-### Recommendations
-**Choose Bayesian Methods When**:
-
-- Uncertainty quantification and interpretability are crucial.
-- Data is scarce or noisy, and domain expertise can inform priors.
-- Robustness to overfitting is a priority.
-  
-**Avoid Bayesian Methods If**:
-
-- Real-time or computational efficiency is critical.
-- Interpretability is unnecessary, and data is abundant.
-
-## Findings
-
-### Bayesian Linear Models (BLMs)
-
-**Strengths:**
-- Consistently outperform BNNs on small datasets.
-- Better convergence diagnostics due to unimodal posterior distributions.
-- High interpretability with credible intervals.
-
-**Challenges:**
-- Computational overhead in high-dimensional settings.
-
-### Bayesian Neural Networks (BNNs)
-
-**Strengths:**
-- Extend Bayesian principles to complex models with multi-layer architectures.
-- Quantify uncertainty in deep learning tasks.
-
-**Challenges:**
-- Struggle with multi-modal posterior distributions, leading to challenges in convergence diagnostics compared to the unimodal posteriors of BLMs.
-- High computational cost, especially for large architectures: Bayesian models often require more time for tuning and validation compared to frequentist approaches.
-
-### Comparison: BLMs vs. BNNs
-
-- **Small Datasets:** BLMs outperform BNNs due to better generalization and stability. BLMs show better convergence and are more robust in small-sample settings.
-- **High-Dimensional Tasks:** BNNs provide the necessary flexibility, albeit at a computational cost.
 
 
 
